@@ -1,0 +1,35 @@
+.contact{
+    display:flex;
+    justify-content: space-around;
+     background-color: black;
+ height: 100vh;
+ padding-top: 70px;
+    
+}
+span{
+    padding-top: 20px;
+    margin-left: 86px;
+    margin-right: 86px;
+    color: rgba(255, 255, 255, 0.932);
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+p{
+padding-top: 20px;
+margin-left: 86px;
+margin-right: 86px;
+color: rgba(255, 255, 255, 0.932);
+font-weight: lighter;
+font-size: 30px;
+}
+.img{
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+   gap:15px;
+    }
+    .img1:hover, .img2:hover, .img3:hover{
+        transition-duration: 1s;
+        transform: scale(1.3);
+    }

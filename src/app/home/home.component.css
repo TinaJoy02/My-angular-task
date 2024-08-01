@@ -1,0 +1,99 @@
+.home{
+    position: relative;
+    background-color: #000000;
+    /* background: linear-gradient(180deg, rgba(176,163,117,0.6027661064425771) 0%, rgba(0,0,0,0.7624299719887955) 0%, rgba(0,0,0,1) 44%, rgba(1,1,1,1) 95%); */
+     height: 100%;
+     
+}
+.home::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(103, 97, 82, 0.5) 0%, rgba(218, 209, 158, 0) 70%);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  
+.content{
+    margin-left: 86px;
+    margin-right: 86px;
+    color: white;
+    padding-top: 50px;
+}
+
+.p1{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.774) !important;
+}
+.p2{
+    font-size: 85px;
+    font-weight: lighter;
+}
+button{
+    align-content:center;
+    border: 1px solid rgba(255, 255, 255, 0.456);
+    background-color: transparent;
+    width:200px;
+    height: 50px;
+    color: white;
+}
+button:hover{
+    background-color: rgba(255, 0, 0, 0.956);
+}
+.p3{
+    color: rgba(255, 255, 255, 0.547);
+    letter-spacing: 4px;
+    font-size: 18px;
+    padding-top: 30px;
+   
+}
+a{
+    color: white;
+   
+    
+}
+a:hover{
+    color: rgba(255, 255, 255, 0.647);
+}
+.p4{
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.butn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+#b1, #b2{
+    font-size: 26px;
+    height: 110px;
+    width: 280px;
+    border: none;
+    border-radius: 70px 0px 0px 0px;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 18%, rgba(59,2,2,1) 41%, rgba(74,5,5,1) 60%, rgba(37,1,1,1) 74%, rgba(1,1,1,1) 90%);
+   
+}
+#b1:hover{
+    position: relative;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.577);
+    transition-duration: 1s;
+    transform: scaleX(1.05);
+   
+}
+#b2:hover{
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.577);
+    transition-duration: 1s;
+    transform: scaleX(1.05);
+   
+}
+img{
+    position: absolute;
+    padding-right: 0;
+}

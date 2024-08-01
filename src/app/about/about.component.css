@@ -1,0 +1,44 @@
+.abt{
+        background: linear-gradient(180deg, rgba(176,163,117,0.6027661064425771) 0%, rgba(0,0,0,0.7624299719887955) 0%, rgba(0,0,0,1) 44%, rgba(1,1,1,1) 95%);
+  
+     height: 100vh;
+        
+    }
+
+p{
+    padding-top: 20px;
+    margin-left: 86px;
+    margin-right: 86px;
+    color: rgba(255, 255, 255, 0.932);
+    font-weight: lighter;
+    font-size: 40px;
+}
+.cont1{
+    padding-top: 20px;
+    margin-left: 86px;
+    margin-right: 86px;
+}
+span{
+    color: rgba(255, 255, 255, 0.719);
+    font-style: italic;
+    font-size:26px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.link{
+    display: block;
+    margin-left: 86px;
+    margin-right: 86px;
+   padding-top: 200px;
+   text-align: end;
+    
+    
+}
+a{
+    
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(124, 0, 0, 0.911);
+}
+a:hover{
+    color: rgba(126, 5, 5, 0.386);
+}

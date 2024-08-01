@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg bg">
+    <div class="container-fluid cont">
+      <div class="navbar-brand" href="#"><img src="\logo.png" height="40px"><span>Vikn Codes</span> </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['']">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" [routerLink]="['/about']">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              
+              <li><a class="dropdown-item" [routerLink]="['/webservice']">App Development</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/webservice']">Web Designing</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/webservice']">Web Development</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/webservice']">Graphic Designing</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/webservice']">ERP Solutions</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" [routerLink]="['/portfolio']">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" [routerLink]="['/contact']">Contact</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  

@@ -1,0 +1,33 @@
+.serv{
+background-color: rgba(0, 0, 0, 0.964);   
+ height: 100vh;
+    
+}
+.heading{
+    padding-top: 20px;
+    margin-left: 86px;
+    margin-right: 86px;
+    color: rgba(255, 255, 255, 0.932);
+    font-weight: lighter;
+    font-size: 40px;
+}
+.cont{
+    
+    display: grid;
+    grid-template-columns:auto auto auto;
+    row-gap: 30px;
+    justify-items: center;
+    padding-top: 30px;
+}
+p{
+    color: rgba(255, 255, 255, 0.945);
+    text-align: center;
+
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover{
+transition-duration: 1s;
+transform: scale(1.2);
+}
+p:hover{
+    color:rgba(255, 254, 254, 0.733);
+}

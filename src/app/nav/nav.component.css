@@ -1,0 +1,41 @@
+span{
+    padding: 10px;
+     font-size: 16px;
+     font-weight:bold ;
+     color: white;
+ }
+ 
+ .navbar-collapse{
+     justify-content: flex-end;
+    
+   
+   
+ }
+ 
+ .bg{
+    font-family:Arial, Helvetica, sans-serif ;
+     background-color: black;
+     
+ }
+
+.cont{
+    margin-left: 70px;
+    margin-right:70px;
+}   
+.dropdown-item{
+    color: black !important;
+ }
+ .dropdown-item:hover{
+    color: rgb(184, 6, 6) !important;
+ }
+ a{
+    color: white !important;
+    font-size: 16px;
+ }
+ul{
+    gap: 20px;
+}
+a:hover{
+    color: rgba(255, 0, 0, 0.908) !important;
+    
+}

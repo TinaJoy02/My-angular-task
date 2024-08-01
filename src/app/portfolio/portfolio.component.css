@@ -1,0 +1,27 @@
+.work{
+    background-color: rgba(0, 0, 0, 0.964);   
+     height: 100%;
+        
+    }
+    .heading{
+        padding-top: 20px;
+        margin-left: 86px;
+        margin-right: 86px;
+        color: rgba(255, 255, 255, 0.932);
+        font-weight: lighter;
+        font-size: 40px;
+    }
+.cont{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover,.card7:hover,.card8:hover{
+    transition-duration: 1s;
+    transform: scale(1.1);
+}
